@@ -17,6 +17,8 @@ def hello_world():
     time.sleep(2)
     return jsonify({
         "TD_Name": "Gerry Adams",
+        "Bio": "Man of the People",
+        "Image":"https://www.sinnfein.ie/files/images/orig/2013/GerryAdamsWeb3001.jpg",
         "Ta": 100,
         "Nil": 50,
         "Staonaim": 20
